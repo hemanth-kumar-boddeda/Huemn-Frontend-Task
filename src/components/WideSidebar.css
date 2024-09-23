@@ -1,0 +1,15 @@
+.inspector-wrapper {
+    height: 100vh;
+    
+  }
+  
+  .sidebar-wrapper {
+    border-right: 1px solid #dee2e6; /* Optional: Add a right border for separation */
+  }
+  
+  @media (max-width: 768px) {
+    .sidebar-wrapper {
+      padding: 1rem; /* Adjust padding for smaller screens */
+    }
+  }
+  

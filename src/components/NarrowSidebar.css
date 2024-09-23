@@ -1,0 +1,57 @@
+.icons-wrapper {
+    width: 60px; /* Narrow width for sidebar */
+    height: 100vh; /* Full height */
+    background-color: #232323; /* Dark background color */
+    padding: 10px 0;
+  }
+  
+  .btn-sidebar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: #8d8d8d; /* Default button color */
+    padding: 10px 0; /* Adjusted padding */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transitions */
+    border: none; /* No borders */
+  }
+  
+  .btn-sidebar:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Subtle hover effect */
+  }
+  
+  .active-button {
+    background-color: #1d1d1d; /* Active tab background */
+    color: #fff !important; /* Active tab text color */
+  }
+  
+  .material-icons {
+    font-size: 24px; /* Icon size */
+  }
+  
+  .bottom-buttons {
+    padding-bottom: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .btn-sidebar {
+      font-size: 14px; /* Responsive font size for smaller screens */
+    }
+  }
+  
+  .d-md-inline {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+  @media (min-width: 768px) {
+    .btn-sidebar {
+      justify-content: flex-start;
+      padding-left: 15px;
+    }
+  
+    .btn-sidebar .material-icons {
+      margin-right: 10px;
+    }
+  }
+  

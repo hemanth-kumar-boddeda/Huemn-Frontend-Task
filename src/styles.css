@@ -1,0 +1,195 @@
+/* Global styles for body */
+body {
+    background: #faf8ff !important; /* Light background */
+    width: 100vw; /* Full viewport width */
+    height: 100%; /* Full height */
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+/* Scrollable overflow-x */
+.overflow-x-scroll {
+    overflow-x: scroll;
+}
+
+/* Pointer cursor */
+.cursor-pointer {
+    cursor: pointer;
+}
+
+/* Sidebar button hover and active states */
+.btn-sidebar:hover {
+    background: #232323; /* Dark background on hover */
+}
+
+.active-button {
+    background: #232323; /* Active button background */
+    color: #fff !important; /* Ensure white text on active buttons */
+}
+
+/* Sidebar button styling */
+.btn-sidebar {
+    color: #8d8d8d; /* Default gray text color */
+    padding: 0.75rem; /* Padding for spacing */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-sidebar:hover {
+    color: #fff; /* White text on hover */
+}
+
+/* Box shadow */
+.shadow {
+    -webkit-box-shadow: 0px 0px 22px -1px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0px 0px 22px -1px rgba(0,0,0,0.25);
+    box-shadow: 0px 0px 22px -1px rgba(0,0,0,0.25); /* Box shadow for elevation */
+}
+
+/* Sidebar icons container */
+.icons-wrapper {
+    width: 4rem; /* Fixed width */
+    min-width: 32px;
+    overflow-y: hidden;
+    height: 100vh; /* Full height */
+    background: rgb(52, 62, 75); /* Dark background color */
+}
+
+/* Inspector container */
+.inspector-wrapper {
+    overflow-y: scroll;
+    height: 100vh; /* Full height */
+    width: 600px; /* Fixed width for inspector */
+    background: white;
+}
+
+/* Page content wrapper */
+.page-content-wrapper {
+    width: 100vw; /* Full viewport width */
+    padding-top: 32px; /* Padding on top */
+    padding-bottom: 8px; /* Padding on bottom */
+}
+
+/* Iframe within preview */
+.visual-iframe {
+    width: 100%; /* Full width */
+    flex: 1;
+    border: none; /* No border */
+    margin: 0;
+    padding: 0;
+}
+
+/* Preview window styling */
+.preview-window {
+    background-color: white;
+    border: 1px solid #ddd; /* Light border */
+    display: flex;
+    flex-direction: column; /* Arrange content vertically */
+}
+
+/* Preview window sizing based on mode */
+.preview-mode-0 {
+    width: 95%; /* Full width in mode 0 */
+}
+
+.preview-mode-1 {
+    width: 1200px; /* Desktop width in mode 1 */
+}
+
+.preview-mode-2 {
+    width: 800px; /* Tablet width in mode 2 */
+}
+
+.preview-mode-3 {
+    width: 450px; /* Mobile width in mode 3 */
+}
+
+/* Toolbar in the preview window */
+.preview-toolbar {
+    width: 100%; /* Full width */
+    padding: 4px 16px; /* Padding for spacing */
+    background-color: #f7f5fb; /* Light background */
+    border-bottom: 1px solid #ddd; /* Bottom border */
+}
+
+/* Toolbar dot styling */
+.preview-toolbar-dot {
+    font-size: 1.2rem !important; /* Larger size */
+    color: #e4e2ea; /* Light gray color */
+    margin-right: 4px; /* Spacing between dots */
+    cursor: default; /* Non-clickable cursor */
+}
+
+/* Toolbar button styling */
+.btn-preview-toolbar {
+    color: #A2A2A2; /* Default gray color */
+}
+
+.btn-preview-toolbar.active,
+.btn-preview-toolbar:hover {
+    background-color: #e4e2ea; /* Light background when active or on hover */
+}
+
+/* Block entry styling */
+.block-entry {
+    cursor: pointer; /* Pointer cursor */
+}
+
+/* Hidden prompt inside block entry */
+.block-entry > .prompt {
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    margin: 0;
+    padding: 0;
+    position: absolute; /* Absolute positioning */
+    opacity: 0; /* Hidden by default */
+    transition: 100ms linear 0s; /* Smooth transition */
+}
+
+/* Inside the prompt */
+.block-entry > .prompt > .prompt-inside {
+    background: rgb(52, 62, 75); /* Dark background */
+    color: white;
+    display: flex;
+    flex-direction: row; /* Horizontal layout */
+    height: 100%; /* Full height */
+    justify-content: center;
+    align-items: center; /* Center content */
+}
+
+/* Hover effect on block entry */
+.block-entry:hover > .prompt {
+    opacity: 0.95; /* Show the prompt on hover */
+}
+
+
+.preview-window {
+  border: 1px solid #ccc;
+  position: relative;
+  margin-top: 20px;
+  background-color: white;
+}
+
+.drag-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  color: white;
+  z-index: 1;
+}
+
+.preview-toolbar button.active {
+  background-color: #007bff;
+  color: white;
+}

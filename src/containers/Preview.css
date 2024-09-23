@@ -1,0 +1,67 @@
+/* Preview Window Styling */
+.preview-window {
+  width: 100%;
+  max-width: 1200px;
+  height: 800px; /* Adjust the height to fit the content */
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.preview-toolbar {
+  background-color: #f5f5f5;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.preview-toolbar-dot {
+  color: #bbb;
+  margin-right: 5px;
+}
+
+.preview-toolbar-dot:hover {
+  color: #888;
+  cursor: pointer;
+}
+
+.btn-preview-toolbar {
+  background-color: transparent;
+  border: none;
+  padding: 5px;
+  margin-left: 5px;
+}
+
+.btn-preview-toolbar.active {
+  background-color: #007bff;
+  color: white;
+  border-radius: 50%;
+}
+
+.visual-iframe {
+  flex-grow: 1;
+  width: 100%;
+  border: none;
+}
+
+/* Preview Mode Adjustments */
+.preview-mode-0 .visual-iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.preview-mode-1 .visual-iframe {
+  width: 85%;
+  height: 100%;
+}
+
+.preview-mode-2 .visual-iframe {
+  width: 60%;
+  height: 100%;
+}
+
+.preview-mode-3 .visual-iframe {
+  width: 40%;
+  height: 100%;
+}
