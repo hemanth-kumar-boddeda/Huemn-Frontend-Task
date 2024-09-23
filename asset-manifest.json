@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/visual-editor/static/css/main.cf009d26.chunk.css",
-    "main.js": "/visual-editor/static/js/main.ffd5215d.chunk.js",
-    "main.js.map": "/visual-editor/static/js/main.ffd5215d.chunk.js.map",
-    "runtime-main.js": "/visual-editor/static/js/runtime-main.7b2a6fdf.js",
-    "runtime-main.js.map": "/visual-editor/static/js/runtime-main.7b2a6fdf.js.map",
-    "static/css/2.88761f2b.chunk.css": "/visual-editor/static/css/2.88761f2b.chunk.css",
-    "static/js/2.21d53fb6.chunk.js": "/visual-editor/static/js/2.21d53fb6.chunk.js",
-    "static/js/2.21d53fb6.chunk.js.map": "/visual-editor/static/js/2.21d53fb6.chunk.js.map",
-    "static/js/3.140c4ddf.chunk.js": "/visual-editor/static/js/3.140c4ddf.chunk.js",
-    "static/js/3.140c4ddf.chunk.js.map": "/visual-editor/static/js/3.140c4ddf.chunk.js.map",
-    "index.html": "/visual-editor/index.html",
-    "static/css/2.88761f2b.chunk.css.map": "/visual-editor/static/css/2.88761f2b.chunk.css.map",
-    "static/css/main.cf009d26.chunk.css.map": "/visual-editor/static/css/main.cf009d26.chunk.css.map",
-    "static/js/2.21d53fb6.chunk.js.LICENSE.txt": "/visual-editor/static/js/2.21d53fb6.chunk.js.LICENSE.txt"
+    "main.css": "/huemn-frontend-task/static/css/main.cf009d26.chunk.css",
+    "main.js": "/huemn-frontend-task/static/js/main.9767cf24.chunk.js",
+    "main.js.map": "/huemn-frontend-task/static/js/main.9767cf24.chunk.js.map",
+    "runtime-main.js": "/huemn-frontend-task/static/js/runtime-main.35353535.js",
+    "runtime-main.js.map": "/huemn-frontend-task/static/js/runtime-main.35353535.js.map",
+    "static/css/2.88761f2b.chunk.css": "/huemn-frontend-task/static/css/2.88761f2b.chunk.css",
+    "static/js/2.2c2e02ec.chunk.js": "/huemn-frontend-task/static/js/2.2c2e02ec.chunk.js",
+    "static/js/2.2c2e02ec.chunk.js.map": "/huemn-frontend-task/static/js/2.2c2e02ec.chunk.js.map",
+    "static/js/3.b3030f4e.chunk.js": "/huemn-frontend-task/static/js/3.b3030f4e.chunk.js",
+    "static/js/3.b3030f4e.chunk.js.map": "/huemn-frontend-task/static/js/3.b3030f4e.chunk.js.map",
+    "index.html": "/huemn-frontend-task/index.html",
+    "static/css/2.88761f2b.chunk.css.map": "/huemn-frontend-task/static/css/2.88761f2b.chunk.css.map",
+    "static/css/main.cf009d26.chunk.css.map": "/huemn-frontend-task/static/css/main.cf009d26.chunk.css.map",
+    "static/js/2.2c2e02ec.chunk.js.LICENSE.txt": "/huemn-frontend-task/static/js/2.2c2e02ec.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.7b2a6fdf.js",
+    "static/js/runtime-main.35353535.js",
     "static/css/2.88761f2b.chunk.css",
-    "static/js/2.21d53fb6.chunk.js",
+    "static/js/2.2c2e02ec.chunk.js",
     "static/css/main.cf009d26.chunk.css",
-    "static/js/main.ffd5215d.chunk.js"
+    "static/js/main.9767cf24.chunk.js"
   ]
 }
